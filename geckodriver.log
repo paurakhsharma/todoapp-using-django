@@ -217,3 +217,16 @@ JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.
 1516090731514	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
 1516090731516	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
 1516090731585	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+1516093399672	geckodriver	INFO	geckodriver 0.19.1
+1516093399672	geckodriver	INFO	Listening on 127.0.0.1:57063
+1516093401797	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\alone\\AppData\\Local\\Temp\\rust_mozprofile.9X2Fiemh0H1y"
+1516093402820	Marionette	INFO	Enabled via --marionette
+[Child 216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1516093405642	Marionette	INFO	Listening on port 57069
+1516093406081	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516093406169	Marionette	DEBUG	Register listener.js for window 4294967297
+1516093406204	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516093406482	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516093406482	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516093406491	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1516093406495	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
