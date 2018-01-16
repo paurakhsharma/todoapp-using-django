@@ -153,3 +153,67 @@ JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.
 1515919104111	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 1515919104157	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
 1515919104395	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+[Parent 6688, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6688, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5444, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/nsSearchService.js, line 768: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICryptoHash.init]
+JavaScript error: jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/nsSearchService.js, line 768: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICryptoHash.init]
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1516090610286	geckodriver	INFO	geckodriver 0.19.1
+1516090610317	geckodriver	INFO	Listening on 127.0.0.1:56063
+1516090612506	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\alone\\AppData\\Local\\Temp\\rust_mozprofile.pngRVd8JmwCn"
+1516090613349	Marionette	INFO	Enabled via --marionette
+1516090616546	Marionette	INFO	Listening on port 56069
+1516090616826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516090616903	Marionette	DEBUG	Register listener.js for window 4294967297
+1516090617134	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516090619197	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516090619201	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516090619201	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516090619262	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=connectionFailure&u=http%3A//localhost%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8000."
+1516090650049	geckodriver	INFO	geckodriver 0.19.1
+1516090650064	geckodriver	INFO	Listening on 127.0.0.1:56105
+1516090652175	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\alone\\AppData\\Local\\Temp\\rust_mozprofile.mZyd5Mk9JcYz"
+1516090652940	Marionette	INFO	Enabled via --marionette
+1516090655493	Marionette	INFO	Listening on port 56111
+1516090655823	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516090655895	Marionette	DEBUG	Register listener.js for window 4294967297
+1516090655962	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516090656525	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516090656525	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516090656533	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1516090656536	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1516090656611	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+1516090695241	geckodriver	INFO	geckodriver 0.19.1
+1516090695256	geckodriver	INFO	Listening on 127.0.0.1:56217
+1516090697381	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\alone\\AppData\\Local\\Temp\\rust_mozprofile.2RlKLK0rHREg"
+1516090698145	Marionette	INFO	Enabled via --marionette
+[Child 10092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1516090701214	Marionette	INFO	Listening on port 56224
+1516090701624	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516090701714	Marionette	DEBUG	Register listener.js for window 4294967297
+1516090701733	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516090702002	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516090702003	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516090702010	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1516090702012	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1516090702085	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+1516090724468	geckodriver	INFO	geckodriver 0.19.1
+1516090724468	geckodriver	INFO	Listening on 127.0.0.1:56265
+1516090726592	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\alone\\AppData\\Local\\Temp\\rust_mozprofile.tkClYZ6QCUUT"
+1516090727363	Marionette	INFO	Enabled via --marionette
+[Child 5196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1516090730793	Marionette	INFO	Listening on port 56271
+1516090730812	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516090730886	Marionette	DEBUG	Register listener.js for window 4294967297
+1516090731233	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516090731506	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516090731507	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516090731514	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1516090731516	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1516090731585	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
