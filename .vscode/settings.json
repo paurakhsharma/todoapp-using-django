@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "${workspaceFolder}\\myDjangoEnv2\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": false
+}
